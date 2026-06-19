@@ -23,7 +23,7 @@ Every lab was engineered inside an isolated VirtualBox testing environment runni
 ---
 
 ## 📂 Project 3: Network Transmission Port Scanner
-* **Directory Path:** [`/Port-Scanner-Lab`](./Port-Scanner-Lab)
+* **Directory Path:** [`/Password-Strength-Checker`](.Password-Strength-Checker)
 * **Core Technical Domain:** Network Layer Architecture / Vulnerability Assessment
 * **Description:** Built a multi-channel network interface auditor designed to perform stealth port scanning against remote infrastructure endpoints. Leveraging low-level Python `socket` connections, the script executes TCP handshakes across key network ports, utilizes explicit connection timeout limits to handle packet drops gracefully, and maps exposed entry points based on structural return values.
 * **Key Files:** `port_scanner.py` (Network socket scanner).
@@ -31,9 +31,9 @@ Every lab was engineered inside an isolated VirtualBox testing environment runni
 ---
 
 ## 📂 Project 4: Cryptographic Password Strength & Policy Auditor
-* **Directory Path:** [`/Password-Auditor-Lab`](./Password-Auditor-Lab)
+* **Directory Path:** [`/Password-Strength-Checker`](./Password-Strength-Checker)
 * **Core Technical Domain:** Identity & Access Management (IAM) / Cryptographic Verification
 * **Description:** Programmed an advanced local identity-vetting framework that conducts multidirectional validation on password inputs. The tool calculates absolute string entropy using character space permutations, checks lengths against strict corporate standards, and executes structural lookups against an integrated list of highly breached dictionary hashes to generate a complete defensive security risk score.
-* **Key Files:** `password_auditor.py` (Policy script), `common_breaches.txt` (Breached signatures dictionary).
+* **Key Files:** `Password_auditor.py` (Policy script), `Common_Breaches.txt` (Breached signatures dictionary).
 
 ---
