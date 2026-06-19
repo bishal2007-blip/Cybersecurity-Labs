@@ -23,7 +23,7 @@ Every lab was engineered inside an isolated VirtualBox testing environment runni
 ---
 
 ## 📂 Project 3: Network Transmission Port Scanner
-* **Directory Path:** [`/Password-Strength-Checker`](.Password-Strength-Checker)
+* **Directory Path:** [`/Network-Transmission-Port-Scanner`](.Network-Transmission-Port-Scanner)
 * **Core Technical Domain:** Network Layer Architecture / Vulnerability Assessment
 * **Description:** Built a multi-channel network interface auditor designed to perform stealth port scanning against remote infrastructure endpoints. Leveraging low-level Python `socket` connections, the script executes TCP handshakes across key network ports, utilizes explicit connection timeout limits to handle packet drops gracefully, and maps exposed entry points based on structural return values.
 * **Key Files:** `port_scanner.py` (Network socket scanner).
