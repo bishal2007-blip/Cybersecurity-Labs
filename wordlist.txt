@@ -1,0 +1,5 @@
+admin
+login
+secret
+uploads
+backup
