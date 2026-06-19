@@ -1,0 +1,9 @@
+2026-06-19 10:00:01 - INFO - User admin logged in successfully from IP 192.168.1.10
+2026-06-19 10:02:15 - INFO - Database backup completed successfully
+2026-06-19 10:05:42 - WARNING - Failed login attempt from IP 10.0.0.45
+2026-06-19 10:06:12 - INFO - Page /index.html loaded by IP 192.168.1.12
+2026-06-19 10:08:19 - WARNING - Failed login attempt from IP 10.0.0.45
+2026-06-19 10:10:00 - INFO - System health check status: OPTIMAL
+2026-06-19 10:12:34 - WARNING - Failed login attempt from IP 10.0.0.45
+2026-06-19 10:15:22 - INFO - User guest logged in successfully from IP 192.168.1.15
+2026-06-19 10:19:50 - CRITICAL - Unrecognized device connected from IP 172.16.0.5
