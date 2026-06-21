@@ -1,39 +1,117 @@
-# Cybersecurity-Labs
+# Cybersecurity Labs
 
-Welcome to my hands-on security engineering portfolio. This repository serves as a centralized, structured sandbox tracking my technical labs in defensive automation, infrastructure auditing, network recon, and identity assurance management.
+This repository contains the cybersecurity projects I have built while learning Python and cybersecurity fundamentals. My goal with these projects was to understand how common security tools work by implementing simplified versions myself instead of only reading about them.
 
-Every lab was engineered inside an isolated VirtualBox testing environment running a 64-bit Kali Linux kernel, utilizing standalone Python scripts interacting with live network layers and data streams.
+> **Note:** These projects were built as part of my self-learning journey in cybersecurity. As I learned more, I revisited several of them to improve their functionality by adding features such as automated report generation, better error handling, and cleaner code structure.
 
----
-
-## 📂 Project 1: Linux Deployment & Automated Log Analysis Lab
-* **Directory Path:** [`/Log-Parser-Lab`](./Log-Parser-Lab)
-* **Core Technical Domain:** Security Information & Event Management (SIEM) / Log Parsing
-* **Description:** Developed a custom automated parser to ingest and audit high-volume server authentication logs sequentially. The script targets and isolates signature brute-force attack indicators (`"Failed login attempt"`), processes raw strings to clean trailing structural breaks, and surfaces suspicious source IP addresses in real time for security operations response.
-* **Key Files:** `log_parser.py` (Automation utility), `server_logs.txt` (Raw network log data).
+The projects focus on different areas of cybersecurity such as log analysis, network scanning, password security, and web application testing. While these are beginner-level projects, each one helped me understand a different aspect of defensive security and Python programming.
 
 ---
 
-## 📂 Project 2: Web Automation & Directory Vulnerability Scanner
-* **Directory Path:** [`/Web-Scanner-Lab`](./Web-Scanner-Lab)
-* **Core Technical Domain:** Application Security / Automated Reconnaissance
-* **Description:** Engineered an automated directory mapping framework using Python's `requests` engine to simulate automated administrative discovery patterns. The tool reads targeted directory pathways from a dictionary wordlist (`wordlist.txt`), handles network-level connection exceptions, and maps live server HTTP status response codes (such as isolating successful `200 OK` hits) to reveal hidden web endpoints and exposed file assets.
-* **Key Files:** `request_scanner.py` (Scanning script), `wordlist.txt` (Target pathways).
+# 📂 Project 1 - Log Parser
+
+**Folder:** `Log-Parser`
+
+### Description
+
+A Python script that reads a server log file and searches for failed login attempts. It identifies suspicious login activity, counts the total number of failed attempts, and generates a security report.
+
+### Concepts Practiced
+
+- Log Analysis
+- File Handling
+- Security Monitoring
+- Basic Threat Detection
+
+### Files
+
+- `log_parser.py`
+- `server_logs.txt`
+- `security_report.txt`
 
 ---
 
-## 📂 Project 3: Network Transmission Port Scanner
-* **Directory Path:** [`/Network-Transmission-Port-Scanner`](.Network-Transmission-Port-Scanner)
-* **Core Technical Domain:** Network Layer Architecture / Vulnerability Assessment
-* **Description:** Built a multi-channel network interface auditor designed to perform stealth port scanning against remote infrastructure endpoints. Leveraging low-level Python `socket` connections, the script executes TCP handshakes across key network ports, utilizes explicit connection timeout limits to handle packet drops gracefully, and maps exposed entry points based on structural return values.
-* **Key Files:** `port_scanner.py` (Network socket scanner).
+# 📂 Project 2 - Port Scanner
+
+**Folder:** `Port-Scanner`
+
+### Description
+
+A simple TCP port scanner built using Python's `socket` library. The program checks a list of common ports on a target host, identifies which ports are open, and generates a scan report.
+
+### Concepts Practiced
+
+- TCP/IP Networking
+- Socket Programming
+- Port Scanning
+- Network Enumeration
+
+### Files
+
+- `port_scanner.py`
+- `port_scan_report.txt`
 
 ---
 
-## 📂 Project 4: Cryptographic Password Strength & Policy Auditor
-* **Directory Path:** [`/Password-Strength-Checker`](./Password-Strength-Checker)
-* **Core Technical Domain:** Identity & Access Management (IAM) / Cryptographic Verification
-* **Description:** Programmed an advanced local identity-vetting framework that conducts multidirectional validation on password inputs. The tool calculates absolute string entropy using character space permutations, checks lengths against strict corporate standards, and executes structural lookups against an integrated list of highly breached dictionary hashes to generate a complete defensive security risk score.
-* **Key Files:** `Password_auditor.py` (Policy script), `Common_Breaches.txt` (Breached signatures dictionary).
+# 📂 Project 3 - Password Policy Auditor
+
+**Folder:** `Password-Policy-Auditor`
+
+### Description
+
+A password auditing tool that evaluates passwords based on length, complexity, and whether they appear in a local breach dictionary. It assigns a security score and generates recommendations to improve password strength.
+
+### Concepts Practiced
+
+- Password Security
+- Authentication
+- Input Validation
+- Security Policy Enforcement
+
+### Files
+
+- `password_auditor.py`
+- `common_breaches.txt`
+- `password_audit_report.txt`
 
 ---
+
+# 📂 Project 4 - Web Directory Scanner
+
+**Folder:** `Web-Directory-Scanner`
+
+### Description
+
+A basic web directory scanner that reads directory names from a wordlist and sends HTTP requests to check whether those paths are accessible on a target website. The scan results are saved in a report.
+
+### Concepts Practiced
+
+- HTTP Requests
+- Status Codes
+- Web Enumeration
+- Error Handling
+
+### Files
+
+- `request_scanner.py`
+- `wordlist.txt`
+- `web_scan_report.txt`
+
+---
+
+# 🛠 Skills Demonstrated
+
+- Python Programming
+- File Handling
+- Socket Programming
+- HTTP Requests
+- Log Analysis
+- Network Fundamentals
+- Password Security
+- Basic Web Security
+- Report Generation
+
+---
+
+These projects were created for learning purposes and are intended to demonstrate my understanding of fundamental cybersecurity concepts. I plan to continue expanding this repository with more advanced projects as I develop my skills.
+```
