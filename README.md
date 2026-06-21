@@ -1,98 +1,75 @@
+```md
 # Cybersecurity Labs
 
-This repository contains the cybersecurity projects I have built while learning Python and cybersecurity fundamentals. My goal with these projects was to understand how common security tools work by implementing simplified versions myself instead of only reading about them.
+This repository contains the cybersecurity projects I have built while learning Python and cybersecurity fundamentals. Rather than only reading about security concepts, I wanted to understand how they work by building simple tools myself.
 
-> **Note:** These projects were built as part of my self-learning journey in cybersecurity. As I learned more, I revisited several of them to improve their functionality by adding features such as automated report generation, better error handling, and cleaner code structure.
-
-The projects focus on different areas of cybersecurity such as log analysis, network scanning, password security, and web application testing. While these are beginner-level projects, each one helped me understand a different aspect of defensive security and Python programming.
+These projects cover different areas of cybersecurity, including log analysis, network scanning, password security, and web application testing. As I learned more, I revisited several of these projects to improve them by adding features such as automated report generation, better error handling, and cleaner code.
 
 ---
 
-# 📂 Project 1 - Log Parser
+# 📂 Projects
 
-**Folder:** `Log-Parser`
+## 📄 [Log Parser](./Log-Parser/)
 
-### Description
-
-A Python script that reads a server log file and searches for failed login attempts. It identifies suspicious login activity, counts the total number of failed attempts, and generates a security report.
+A Python script that analyzes server log files to identify failed login attempts. The program detects suspicious activity, counts failed logins, and generates a security report.
 
 ### Concepts Practiced
-
 - Log Analysis
 - File Handling
 - Security Monitoring
 - Basic Threat Detection
 
-### Files
-
+**Files**
 - `log_parser.py`
 - `server_logs.txt`
 - `security_report.txt`
 
 ---
 
-# 📂 Project 2 - Port Scanner
+## 🌐 [Port Scanner](./Port-Scanner/)
 
-**Folder:** `Port-Scanner`
-
-### Description
-
-A simple TCP port scanner built using Python's `socket` library. The program checks a list of common ports on a target host, identifies which ports are open, and generates a scan report.
+A basic TCP port scanner built using Python's `socket` library. The scanner checks common ports on a target host, identifies open ports, and automatically generates a scan report.
 
 ### Concepts Practiced
-
 - TCP/IP Networking
 - Socket Programming
 - Port Scanning
 - Network Enumeration
 
-### Files
-
+**Files**
 - `port_scanner.py`
 - `port_scan_report.txt`
 
 ---
 
-# 📂 Project 3 - Password Policy Auditor
+## 🔐 [Password Policy Auditor](./Password-Policy-Auditor/)
 
-**Folder:** `Password-Policy-Auditor`
-
-### Description
-
-A password auditing tool that evaluates passwords based on length, complexity, and whether they appear in a local breach dictionary. It assigns a security score and generates recommendations to improve password strength.
+A password auditing tool that evaluates password strength based on length, character complexity, and a local breach dictionary. The program assigns a security score and provides recommendations for stronger passwords.
 
 ### Concepts Practiced
-
 - Password Security
 - Authentication
 - Input Validation
 - Security Policy Enforcement
 
-### Files
-
+**Files**
 - `password_auditor.py`
 - `common_breaches.txt`
 - `password_audit_report.txt`
 
 ---
 
-# 📂 Project 4 - Web Directory Scanner
+## 🌍 [Web Directory Scanner](./Web-Directory-Scanner/)
 
-**Folder:** `Web-Directory-Scanner`
-
-### Description
-
-A basic web directory scanner that reads directory names from a wordlist and sends HTTP requests to check whether those paths are accessible on a target website. The scan results are saved in a report.
+A simple web directory scanner that reads directory names from a custom wordlist and sends HTTP requests to determine whether those directories are accessible. The results are saved to a scan report.
 
 ### Concepts Practiced
-
 - HTTP Requests
 - Status Codes
 - Web Enumeration
 - Error Handling
 
-### Files
-
+**Files**
 - `request_scanner.py`
 - `wordlist.txt`
 - `web_scan_report.txt`
@@ -105,13 +82,16 @@ A basic web directory scanner that reads directory names from a wordlist and sen
 - File Handling
 - Socket Programming
 - HTTP Requests
-- Log Analysis
 - Network Fundamentals
+- Log Analysis
 - Password Security
 - Basic Web Security
+- Error Handling
 - Report Generation
 
 ---
 
-These projects were created for learning purposes and are intended to demonstrate my understanding of fundamental cybersecurity concepts. I plan to continue expanding this repository with more advanced projects as I develop my skills.
+## About This Repository
+
+These projects were built as part of my self-learning journey in cybersecurity. My goal is to strengthen my understanding of cybersecurity fundamentals through hands-on practice and continue expanding this repository with more advanced projects over time.
 ```
