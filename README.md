@@ -1,4 +1,4 @@
-```md
+
 # Cybersecurity Labs
 
 This repository contains the cybersecurity projects I have built while learning Python and cybersecurity fundamentals. Rather than only reading about security concepts, I wanted to understand how they work by building simple tools myself.
